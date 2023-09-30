@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <title>AnimexBudy Admin Pannel</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>AnimxBudy</h1>
+        </header>
+        <div class="section">
+            <section class="Videoupdate">
+                <div class="data">
+                    <div class="heading">Series Video Upload</div>
+                </div>
+                <form action="" method="post" enctype="multipart/form-data">
+                    <div class="data">
+                        <div class="text">Series Id:</div>
+                        <input type="text" name="series_id" id="series_id">
+                    </div>
+                    <div class="data">
+                        <div class="text">Series Name:</div>
+                        <input type="text" name="video_name" id="video_name">
+                    </div>
+                    <div class="data">
+                        <div class="text">Choose Video:</div>
+                        <input type="file" name="chooseFile" id="chooseFile">
+                    </div>
+                    <div class="data">
+                        <div class="text">Episod Number:</div>
+                        <input type="text" name="ep_num" id="ep_num">
+                    </div>
+                    <div class="data">
+                        <input type="submit" name="submit" value="Upload Video">
+                    </div>
+                </form>
+            </section>
+            <section class="posterupdate">
+                <div class="data">
+                    <div class="heading">Series Poster Upload</div>
+                </div>
+                <form action="" method="post" enctype="multipart/form-data">
+                    <div class="data">
+                        <div class="text">Series Name:</div>
+                        <input type="text" name="video_name" id="video_name">
+                    </div>
+                    <div class="data">
+                        <div class="text">Video Image:</div>
+                        <input type="file" name="chooseFile" id="chooseFile">
+                    </div>
+                    <div class="data">
+                        <div class="text">Image Section:</div>
+                        <select name="Image_section"> 
+                            <option value="">--Select option--</option>
+                            <option value="Slider_Image">Slider Image</option>
+                            <option value="Poster_Image">Poster Image</option>
+                        </select>
+                    </div>
+                    <div class="data">
+                        <div class="text">Total Episod:</div>
+                        <input type="text" name="total_episod">
+                    </div>
+                    <div class="data">
+                        <div class="text">Rating:</div>
+                        <input type="text" name="rating">
+                    </div>
+                    <div class="data">
+                        <input type="submit" name="submit" value="Upload Image">
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>

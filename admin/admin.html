@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <title>AnimexBudy Admin Pannel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>AnimxBudy</h1>
+        </header>
+        <div class="box">
+            <form action="" method="post">
+                <div id="login">Sign In</div>
+                <div class="user">
+                    <input type="text" name="name" id="name" placeholder="Admin name">
+                </div>
+                <div class="password">
+                    <input type="password" name="pass" id="pass" placeholder="Password">
+                    <i id="eye" class="ph-thin ph-eye" onclick="show()"></i>
+                    <i id="eye2" class="ph-thin ph-eye-slash" onclick="hide()"></i>
+                </div>
+                <div class="btn">
+                    <input type="submit" name="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+<script>
+    const eye = document.getElementById('eye');
+    const eye2 = document.getElementById('eye2');
+    const pass = document.getElementById('pass');
+    function show() {
+        eye.style.display = "none";
+        eye2.style.display = "block";
+        pass.type = 'text';
+    }
+    function hide() {
+        eye.style.display = "block";
+        eye2.style.display = "none";
+        pass.type = 'password';
+    }
+</script>
+
+</html>

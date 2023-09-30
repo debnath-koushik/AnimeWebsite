@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimexBudy</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="script.js" defer></script>
+    <script>
+        alert("The Website is not yet complete\nIs still work in progress ");
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1>AnimexBudy</h1>
+            </div>
+            <div class="more">
+                <div class="search">
+                    <input type="text" placeholder="search">
+                    <i class="ph ph-magnifying-glass"></i>
+                </div>
+                <div class="morelist">
+                    <div class="outer-layout">
+                        <i class="ph-thin ph-article"></i>
+                    </div>
+                    <div class="inner-layout">
+                        <a href="admin.html">
+                            <div class="options" id="login">
+                                <i class="ph-thin ph-user"></i>
+                                <p>Admin Login</p>
+                            </div>
+                        </a>
+                        <hr>
+                        <div class="options" id="about">
+                            <i class="ph-thin ph-clipboard-text"></i>
+                            <a href="#"><p>About</p></a>
+                        </div>
+                        <div class="options" id="update">
+                            <i class="ph-thin ph-clock-clockwise"></i>
+                            <a href="#"><p>Update Info</p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="slidesContainer">
+            <div id="slide">
+                <div class="item"
+                    style="background-image: url('././Images/Slide_Image/img_1.jpg'); background-position: 65% 50%;">
+                    <div class="content">
+                        <div class="name">The Ancient<br />Magus Bride</div>
+                        <div class="des">The series deals with a romantic silence of life storyline in a surreal and
+                            supernatural light</div>
+                        <button>Watch Now</button>
+                    </div>
+                </div>
+                <div class="item"
+                    style="background-image: url('././Images/Slide_Image/img_2.jpg'); background-position: 0% 50%;">
+                    <div class="content">
+                        <div class="name">A Couple of Cuckoos</div>
+                        <div class="des">Nagi Umio is a 16 years old second year high school student who learns that he
+                            is not the biological child of the family that raised him</div>
+                        <button>Watch Now</button>
+                    </div>
+                </div>
+                <div class="item"
+                    style="background-image: url('././Images/Slide_Image/img_3.jpg');">
+                    <div class="content">
+                        <div class="name">The Daily Life of the Immortal King</div>
+                        <div class="des">Wang Ling is a near invincible existence with powers far beyond his control
+                        </div>
+                        <button>Watch Now</button>
+                    </div>
+                </div>
+                <div class="item"
+                    style="background-image: url('././Images/Slide_Image/img_4.jpg');">
+                    <div class="content">
+                        <div class="name">Mashle Magic and Muscles</div>
+                        <div class="des">Into a world of magicians is born Mash, a young boy who lacks magic but is the
+                            strongest person around</div>
+                        <button>Watch Now</button>
+                    </div>
+                </div>
+                <div class="item"
+                    style="background-image: url('././Images/Slide_Image/img_5.jpg'); background-position: 45% 50%;">
+                    <div class="content">
+                        <div class="name">Death Note</div>
+                        <div class="des">Light Yagami, a genius high school student who discovers a mysterious notebook:
+                            the "Death Note", which belonged to the shinigami Ryuk, and grants the user the supernatural
+                            ability to kill anyone whose name is written in its pages</div>
+                        <button>Watch Now</button>
+                    </div>
+                </div>
+                <div class="item"
+                    style="background-image: url('././Images/Slide_Image/img_6.jpg'); background-position: 30% 50%;">
+                    <div class="content">
+                        <div class="name">Demon Slayor</div>
+                        <div class="des">Tanjiro Kamado, a young boy living in Taisho-era Japan who becomes the sole
+                            survivor of his family after demons kill them</div>
+                        <button>Watch Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="prev"><i class="ph-fill ph-arrow-circle-left"></i></button>
+                <button id="next"><i class="ph-fill ph-arrow-circle-right"></i></button>
+            </div>
+        </section>
+
+        <secttion class="animelist">
+            <div class="nav">
+                <span><a href="#">All</a></span>
+                <span><a href="#">Recent</a></span>
+                <span><a href="#">Hindi Dub</a></span>
+                <span><a href="#">Hindi Sub</a></span>
+                <span><a href="#">English Dub</a></span>
+                <span><a href="#">English Sub</a></span>
+                <span><a href="#">Popular</a></span>
+                <span><a href="#">Movie</a></span>
+            </div>
+
+            <hr />
+            <div class="list">
+                <div class="poster" id="poster-1">
+                    <img src="././Images/Poster_Image/cuckoos.jpg">
+                    <div class="overlay">
+                        <div class="text"><span></span>The Daily Life of the Immortal King</span><span>EP:
+                                13/20</span><span>Rating: 7.3</span></div>
+                    </div>
+                </div>
+                <div class="poster" id="poster-2">
+                    <img src="././Images/Poster_Image/Death note.jpg">
+                    <div class="overlay">
+                        <div class="text"><span></span>The Daily Life of the Immortal King</span><span>EP:
+                                13/20</span><span>Rating: 7.3</span></div>
+                    </div>
+                </div>
+                <div class="poster" id="poster-3">
+                    <img src="././Images/Poster_Image/demon slayer.jpg">
+                    <div class="overlay">
+                        <div class="text"><span></span>The Daily Life of the Immortal King</span><span>EP:
+                                13/20</span><span>Rating: 7.3</span></div>
+                    </div>
+                </div>
+                <div class="poster" id="poster-4">
+                    <img src="././Images/Poster_Image/free.jpg">
+                    <div class="overlay">
+                        <div class="text"><span></span>The Daily Life of the Immortal King</span><span>EP:
+                                13/20</span><span>Rating: 7.3</span></div>
+                    </div>
+                </div>
+                <div class="poster" id="poster-5">
+                    <img src="././Images/Poster_Image/hunter x hunter the last mission.jpg">
+                    <div class="overlay">
+                        <div class="text"><span></span>The Daily Life of the Immortal King</span><span>EP:
+                                13/20</span><span>Rating: 7.3</span></div>
+                    </div>
+                </div>
+                <div class="poster" id="poster-6">
+                    <img src="././Images/Poster_Image/immortal king.jpg">
+                    <div class="overlay">
+                        <div class="text"><span></span>The Daily Life of the Immortal King</span><span>EP:
+                                13/20</span><span>Rating: 7.3</span></div>
+                    </div>
+                </div>
+                <div class="poster" id="poster-7">
+                    <img src="././Images/Poster_Image/Magic and muscles.png">
+                    <div class="overlay">
+                        <div class="text"><span></span>The Daily Life of the Immortal King</span><span>EP:
+                                13/20</span><span>Rating: 7.3</span></div>
+                    </div>
+                </div>
+                <div class="poster" id="poster-8">
+                    <img src="././Images/Poster_Image/magus bride.jpg">
+                    <div class="overlay">
+                        <div class="text"><span></span>The Daily Life of the Immortal King</span><span>EP:
+                                13/20</span><span>Rating: 7.3</span></div>
+                    </div>
+                </div>
+                <div class="poster" id="poster-9">
+                    <img src="././Images/Poster_Image/My Hero Academiya.png">
+                    <div class="overlay">
+                        <div class="text"><span></span>The Daily Life of the Immortal King</span><span>EP:
+                                13/20</span><span>Rating: 7.3</span></div>
+                    </div>
+                </div>
+                <div class="poster" id="poster-10">
+                    <img src="././Images/Poster_Image/Naruto.jpg">
+                    <div class="overlay">
+                        <div class="text"><span></span>The Daily Life of the Immortal King</span><span>EP:
+                                13/20</span><span>Rating: 7.3</span></div>
+                    </div>
+                </div>
+                <div class="poster" id="poster-11">
+                    <img src="././Images/Poster_Image/wp8297346-anime-poster-wallpapers.jpg">
+                    <div class="overlay">
+                        <div class="text"><span></span>The Daily Life of the Immortal King</span><span>EP:
+                                13/20</span><span>Rating: 7.3</span></div>
+                    </div>
+                </div>
+            </div>
+
+        </secttion>
+        <aside>
+            <div class="notice">
+                <h1>NOTICE</h1>
+                <hr>
+                <p>This site is currently being developed. Check out the shows I have been added. Big changes arencoming
+                    soon</p>
+                <p>Thank you for visiting our site</p>
+            </div>
+            <div class="genres">
+                <h1>ANIME GENRES</h1>
+                <hr>
+                <div class="summary">
+                    <div id="genres-1">
+                        <span>Action</span>
+                        <span>Comedy</span>
+                        <span>Drama</span>
+                        <span>Game</span>
+                        <span>Horror</span>
+                        <span>Magic</span>
+                        <span>Military</span>
+                        <span>Parody</span>
+                        <span>Romance</span>
+                        <span>Sci-fi</span>
+                        <span>Shoujo Ai</span>
+                        <span>Slice of Life</span>
+                        <span>Super Power</span>
+                        <span>Vampire</span>
+                    </div>
+                    <hr>
+                    <div id="genres-2">
+                        <span>Adventure</span>
+                        <span>Dementia</span>
+                        <span>Ecchi</span>
+                        <span>Harem</span>
+                        <span>Josel</span>
+                        <span>Martial Arts</span>
+                        <span>Music</span>
+                        <span>Police</span>
+                        <span>Samurai</span>
+                        <span>Seinen</span>
+                        <span>Shounen</span>
+                        <span>Space</span>
+                        <span>Supernatural</span>
+                        <span>Yaoi</span>
+                    </div>
+                    <hr>
+                    <div id="genres-3">
+                        <span>Cars</span>
+                        <span>Demons</span>
+                        <span>Fantasy</span>
+                        <span>Historical</span>
+                        <span>Kids</span>
+                        <span>Mecha</span>
+                        <span>Mystery</span>
+                        <span>Pstchological</span>
+                        <span>School</span>
+                        <span>Shoujo</span>
+                        <span>Shounen Ai</span>
+                        <span>Sports</span>
+                        <span>Thriller</span>
+                        <span>Yuri</span>
+                    </div>
+                </div>
+            </div>
+            <div class="messagebox">
+                <h1>Message for Us</h1>
+                <hr>
+                <div class="message">
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Email id">
+                    <textarea name="text" id="textbox" cols="30" rows="10" wrap="hard"
+                        placeholder="Your message for us"></textarea>
+                    <button id="submit">Submit</button>
+                </div>
+            </div>
+        </aside>
+        <footer>
+            <div class="text">&copy; Developed by AnimexBudy</div>
+        </footer>
+    </div>
+</body>
+
+</html>
